@@ -4,7 +4,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Footer from './Footer';
-import Resume from './pages/resume';
+import Resume from './pages/Resume';
 
 function Home() {
     const [currentPage, setCurrentPage] = useState('About');
