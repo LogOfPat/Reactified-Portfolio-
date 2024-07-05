@@ -15,22 +15,14 @@ function Nav({selectPage }) {
                 Portfolio
                 </a>
             </li>
-            <li>
-                <a 
-                onClick={()=> selectPage('Contact')}
-                >
-                
-                Contact
-                </a>
-            </li>
-            <li>
+            {/* <li>
                 <a 
                 onClick={()=> selectPage('Resume')}
                 >
                 
                 Resume
                 </a>
-            </li>
+            </li> */}
         </ul>   
     )
 }
